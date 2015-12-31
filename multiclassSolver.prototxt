@@ -1,0 +1,11 @@
+power: 0.75
+snapshot_prefix: "/home/share/shaofan/lfw_caffe/snapshot/"
+base_lr: 0.01
+snapshot: 100
+momentum: 0.9
+solver_mode: GPU
+train_net: "./lfw_multiclass.prototxt"
+lr_policy: "inv"
+weight_decay: 0.001
+display: 10
+gamma: 0.001
