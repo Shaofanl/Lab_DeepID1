@@ -107,7 +107,7 @@ layer {
   bottom: "conv4"
   top: "conv4deepid"
   inner_product_param {
-    num_output: 320
+    num_output: 160
     weight_filler {
       type: "xavier"
     }
@@ -119,7 +119,7 @@ layer {
   bottom: "pool3"
   top: "pool3deepid"
   inner_product_param {
-    num_output: 320
+    num_output: 160
     weight_filler {
       type: "xavier"
     }
